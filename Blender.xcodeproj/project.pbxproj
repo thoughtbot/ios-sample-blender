@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1498151706397100876A74 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D1498141706397100876A74 /* Icon.png */; };
+		4D1498171706397300876A74 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D1498161706397300876A74 /* Icon@2x.png */; };
 		F8F1FD8E1705DF6A0012AA85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F1FD8D1705DF6A0012AA85 /* UIKit.framework */; };
 		F8F1FD901705DF6A0012AA85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F1FD8F1705DF6A0012AA85 /* Foundation.framework */; };
 		F8F1FD921705DF6A0012AA85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F1FD911705DF6A0012AA85 /* CoreGraphics.framework */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D1498141706397100876A74 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4D1498161706397300876A74 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		F8F1FD8A1705DF6A0012AA85 /* Blender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F1FD8D1705DF6A0012AA85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F8F1FD8F1705DF6A0012AA85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,6 +100,8 @@
 		F8F1FD811705DF6A0012AA85 = {
 			isa = PBXGroup;
 			children = (
+				4D1498161706397300876A74 /* Icon@2x.png */,
+				4D1498141706397100876A74 /* Icon.png */,
 				F8F1FD931705DF6A0012AA85 /* Blender */,
 				F8F1FD8C1705DF6A0012AA85 /* Frameworks */,
 				F8F1FD8B1705DF6A0012AA85 /* Products */,
@@ -267,6 +273,8 @@
 				F8F1FE01170609D20012AA85 /* button_grayscale@2x.png in Resources */,
 				F8F1FE02170609D20012AA85 /* ralph.png in Resources */,
 				F8F1FE03170609D20012AA85 /* ralph@2x.png in Resources */,
+				4D1498151706397100876A74 /* Icon.png in Resources */,
+				4D1498171706397300876A74 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
